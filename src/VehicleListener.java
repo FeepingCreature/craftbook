@@ -789,8 +789,10 @@ public class VehicleListener extends CraftBookDelegateListener {
             }
 
             if (unoccupiedCoast && minecart.getPassenger() == null) {
-                minecart.setMotionX(minecart.getMotionX() * 1.018825);
-                minecart.setMotionZ(minecart.getMotionZ() * 1.018825);
+                // minecart.setMotionX(minecart.getMotionX() * 1.018825);
+                // minecart.setMotionZ(minecart.getMotionZ() * 1.018825);
+                minecart.setMotionX(minecart.getMotionX() * 1.05);
+                minecart.setMotionZ(minecart.getMotionZ() * 1.05);
             }
         }
     }
